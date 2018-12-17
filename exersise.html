@@ -17,17 +17,17 @@
   );
   </script>
   <h3>QUESTION 2 </h3>
-  <p id="add"></p>
-  <p id="multi"></p>
+  <p id="addition"></p>
+  <p id="multiply"></p>
   <script>
   function addNum(num1, num2){
     return num1+num2;
   }
-  document.getElementById("add").innerHTML="The addition of the two numbers is "+ addNum(1,10 );
+  document.getElementById("addition").innerHTML="The addition of the two numbers is "+ addNum(1,10 );
   function multiNum(num1, num2){
     return num1 * num2;
   }
-  document.getElementById("multi").innerHTML= "The multiplication of the two numbers is"+ multiNum(30, 10);
+  document.getElementById("multiply").innerHTML= "The multiplication of the two numbers is"+ multiNum(30, 10);
 </script>
 <p id="subtract"></p>
 <script>
@@ -61,16 +61,16 @@
     + "I'm " +person.age + " years old. "+ "I live in " +person.city +".";
   </script>
   <h3>QUESTION NO 6</h3>
-  <p id="cour"></p>
-  <p id="c"></p>
-  <p id="o"></p>
-  <p id="u"></p>
+  <p id="coursename"></p>
+  <p id="coursefee"></p>
+  <p id="startdate"></p>
+  <p id="center"></p>
   <script>
       var course = {courseName:"BIT", courseFee:"Rs 150 000", startDate:"12.06.2018", center:"Our Office"};
-      document.getElementById("cour").innerHTML="Course Name: " + course.courseName;
-      document.getElementById("c").innerHTML="Course Fee: " + course.courseFee;
-      document.getElementById("o").innerHTML="Start Date: " + course.startDate;
-      document.getElementById("u").innerHTML="Center: " + course.center;
+      document.getElementById("coursename").innerHTML="Course Name: " + course.courseName;
+      document.getElementById("coursefee").innerHTML="Course Fee: " + course.courseFee;
+      document.getElementById("startdate").innerHTML="Start Date: " + course.startDate;
+      document.getElementById("center").innerHTML="Center: " + course.center;
     </script>
 
 </body>
